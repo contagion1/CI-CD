@@ -5,8 +5,6 @@ This project:
 - Utilises ansible configuration management tool to accomplish deployment to cloud-based servers.
 - Surfaces critical server errors for diagnosis using centralized structured logging.
 
-![Diagram of CI/CD Pipeline built](udapeople.png)
-
 ### Instructions
 
 * [Selling CI/CD](instructions/0-selling-cicd.md)
@@ -16,13 +14,13 @@ This project:
 * [Turn Errors into Sirens](instructions/4-turn-errors-into-sirens.md)
 
 The following files are included:
-## - A text file named `urls.txt` including:
+### - A text file named `urls.txt` including:
   
   1. Public URL for S3 Bucket (aka, your green candidate front-end) [URL02]
   1. Public URL for CloudFront distribution (aka, blue production front-end) [URL03]
   1. Public URLs to deployed application back-end in EC2 [URL04]
   1. Public URL to Prometheus Server [URL05]
-## - Screenshots of functional application before infrastructure stack was rolled back: 
+### - Screenshots of functional application before infrastructure stack was rolled back: 
   1. Job failed because of compile errors. [SCREENSHOT01]
   1. Job failed because of unit tests. [SCREENSHOT02]
   1. Job that failed because of vulnerable packages. [SCREENSHOT03]
