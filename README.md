@@ -1,21 +1,11 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Babawale/Project_3_CICD_Auto_Deploy_Powers/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Babawale/Project_3_CICD_Auto_Deploy_Powers/tree/main)
 
+This project:
+- Utilises Deployment Strategies to design and build CI/CD pipelines that support Continuous Delivery processes.
+- Utilises ansible configuration management tool to accomplish deployment to cloud-based servers.
+- Surfaces critical server errors for diagnosis using centralized structured logging.
 
-We are archiving this repository because we do not want learners to push personal development to the current repository. If you have any issues or suggestions to make, feel free to:
-- Utilize the https://knowledge.udacity.com/ forum to seek help on content-specific issues.
-- [Submit a support ticket](https://udacity.zendesk.com/hc/en-us/requests/new) along with the link to your forked repository. 
-- If you are an enterprise learner, please [Submit a support ticket here](https://udacityenterprise.zendesk.com/hc/en-us/requests/new?ticket_form_id=360000279131)
-
-## Give your Application Auto-Deploy Superpowers
-
-In this project, you will prove your mastery of the following learning objectives:
-
-- Explain the fundamentals and benefits of CI/CD to achieve, build, and deploy automation for cloud-based software products.
-- Utilize Deployment Strategies to design and build CI/CD pipelines that support Continuous Delivery processes.
-- Utilize a configuration management tool to accomplish deployment to cloud-based servers.
-- Surface critical server errors for diagnosis using centralized structured logging.
-
-![Diagram of CI/CD Pipeline we will be building.](udapeople.png)
+![Diagram of CI/CD Pipeline built](udapeople.png)
 
 ### Instructions
 
@@ -25,17 +15,14 @@ In this project, you will prove your mastery of the following learning objective
 * [Configuration Management](instructions/3-configuration-management.md)
 * [Turn Errors into Sirens](instructions/4-turn-errors-into-sirens.md)
 
-### Project Submission
-
-For your submission, please submit the following:
-
-- A text file named `urls.txt` including:
-  1. Public Url to GitHub repository (not private) [URL01]
-  1. Public URL for your S3 Bucket (aka, your green candidate front-end) [URL02]
-  1. Public URL for your CloudFront distribution (aka, your blue production front-end) [URL03]
+The following files are included:
+## - A text file named `urls.txt` including:
+  
+  1. Public URL for S3 Bucket (aka, your green candidate front-end) [URL02]
+  1. Public URL for CloudFront distribution (aka, blue production front-end) [URL03]
   1. Public URLs to deployed application back-end in EC2 [URL04]
-  1. Public URL to your Prometheus Server [URL05]
-- Your screenshots in JPG or PNG format, named using the screenshot number listed in the instructions. These screenshots should be included in your code repository in the root folder.
+  1. Public URL to Prometheus Server [URL05]
+## - Screenshots of functional application before infrastructure stack was rolled back: 
   1. Job failed because of compile errors. [SCREENSHOT01]
   1. Job failed because of unit tests. [SCREENSHOT02]
   1. Job that failed because of vulnerable packages. [SCREENSHOT03]
@@ -46,12 +33,10 @@ For your submission, please submit the following:
   1. Successful promotion job. [SCREENSHOT08]
   1. Successful cleanup job. [SCREENSHOT09]
   1. Only deploy on pushed to `master` branch. [SCREENSHOT10]
-  1. Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage. [SCREENSHOT11]
-  1. Provide a screenshot of an alert that was sent by Prometheus. [SCREENSHOT12]
+  1. Screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage. [SCREENSHOT11]
+  1. Screenshot of an alert sent by Prometheus. [SCREENSHOT12]
 
-- Your presentation should be in PDF format named "presentation.pdf" and should be included in your code repository root folder. 
-
-Before you submit your project, please check your work against the project rubric. If you haven’t satisfied each criterion in the rubric, then revise your work so that you have met all the requirements. 
+- Presentation in PDF format - "presentation.pdf" in the root folder. 
 
 ### Built With
 
